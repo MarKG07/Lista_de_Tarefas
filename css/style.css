@@ -1,0 +1,68 @@
+html {
+    background: radial-gradient(farthest-corner at right top, #21A09D, #06182D);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conteudo {
+    margin-top: 10vh;
+}
+
+.principal form {
+    text-align: center;
+    display: grid;
+    gap: 1em;
+    background: #C5965F;
+    padding: 2em 2em 2em;
+    border-radius: 10px;
+}
+
+form label {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.principal input {
+    box-sizing: border-box;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid #06182D;
+}
+
+.cadastrar {
+    background-color: #06182D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 100%;
+    gap: 1em;
+    padding: 0.5em;
+    margin: 0.6em 0;
+    justify-content: space-between;
+}
+
+.delete {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border-color: #06182D;
+    width: 30px;
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
